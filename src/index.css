@@ -1,0 +1,24 @@
+@import url("boxicons/css/boxicons.min.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::backdrop {
+    @apply bg-black/60;
+  }
+
+}
+
+.ql-container {
+  font-size: 16px;
+
+  .ql-editor {
+
+    ol,
+    ul {
+      padding-left: 0px;
+    }
+  }
+}
